@@ -20,12 +20,12 @@ export function StartScreen({ start }) {
   return (
     <div className="flex justify-center p-24">
       <div className="bg-pink-50 rounded p-4 m-4 h-[500px] w-[500px]">
-        <h1 className="text-center text-pink-500 font-bold text-6xl">Memory</h1>
-        <p className="text-center text-pink-500 mt-4">Flip over tiles looking for pairs</p>
-        <div className="flex justify-center mt-4">
+        <h1 className="text-center text-pink-500 font-bold mt-20 text-5xl">Memory</h1>
+        <p className="text-center text-pink-500 text-2xl mt-8">Flip over tiles looking for pairs</p>
+        <div className="flex justify-center mt-20">
           <button
             onClick={start}
-            className="bg-gradient-to-r from-pink-600 to-pink-500 rounded-full text-white p-2 w-32 shadow-xl"
+            className="bg-gradient-to-r from-pink-600 via-pink-500 to-pink-400 rounded-full text-white p-2 w-32 shadow-xl hover:bg-pink-800"
           >
             Play
           </button>
@@ -120,7 +120,7 @@ export function PlayScreen({ end }) {
     <>
       <div className=" grid justify-center p-24">
         <div>
-          <p className="text-xl text-center p-4 font-medium text-indigo-500">Tries <span className="bg-indigo-200  p-1 rounded text-indigo-600">{tryCount}</span></p>
+          <p className="text-xl text-center p-4 font-medium text-indigo-500">Tries <span className="bg-indigo-200 p-1 rounded text-indigo-600">{tryCount}</span></p>
         </div>
         
         <div className="h-[500px] w-[460px]">
