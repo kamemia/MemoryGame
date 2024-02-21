@@ -25,7 +25,7 @@ export function StartScreen({ start }) {
         <div className="flex justify-center mt-4">
           <button
             onClick={start}
-            className="bg-gradient-to-r from-pink-600 to-pink-500 rounded-full text-white p-2  w-32"
+            className="bg-gradient-to-r from-pink-600 to-pink-500 rounded-full text-white p-2 w-32 shadow-xl"
           >
             Play
           </button>

@@ -10,13 +10,13 @@ export function Tile({ content: Content, flip, state }) {
       );
     case "flipped":
       return (
-        <Front className="inline-block h-24 m-2 w-24 bg-indigo-400 text-white rounded">
+        <Front className="inline-block h-24 m-2 w-24 bg-indigo-400 text-white rounded shadow-xl">
           <Content
             style={{
               display: "inline-block",
-              width: "100%",
-              height: "100%",
-              verticalAlign: "bottom",
+              width: "60%",
+              height: "60%",
+              margin: "20px",
             }}
           />
         </Front>
@@ -27,10 +27,9 @@ export function Tile({ content: Content, flip, state }) {
           <Content
             style={{
               display: "inline-block",
-              width: "100%",
-              height: "100%",
-              
-              verticalAlign: "bottom",
+              width: "60%",
+              height: "60%",
+              margin: "20px",
             }}
           />
         </Matched>
