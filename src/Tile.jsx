@@ -4,32 +4,32 @@ export function Tile({ content: Content, flip, state }) {
     case "start":
       return (
         <Back
-          className="inline-block h-24 w-24 rounded-md m-2 bg-indigo-300 text-center hover:bg-indigo-400"
+          className="inline-block h-20 w-20 rounded-md m-2 bg-indigo-300 text-center hover:bg-indigo-400"
           flip={flip}
         />
       );
     case "flipped":
       return (
-        <Front className="inline-block h-24 m-2 w-24 bg-indigo-400 text-white rounded-md shadow-xl">
+        <Front className="inline-block h-20 m-2 w-20 bg-indigo-400 text-white rounded-md shadow-xl">
           <Content
             style={{
               display: "inline-block",
               width: "60%",
               height: "60%",
-              margin: "20px",
+              margin: "18px",
             }}
           />
         </Front>
       );
     case "matched":
       return (
-        <Matched className="inline-block h-24 w-24 m-2 bg-indigo-50 text-indigo-200">
+        <Matched className="inline-block h-20 w-20 m-2 bg-indigo-50 text-indigo-200">
           <Content
             style={{
               display: "inline-block",
               width: "60%",
               height: "60%",
-              margin: "20px",
+              margin: "18px",
             }}
           />
         </Matched>
