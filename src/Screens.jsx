@@ -120,7 +120,7 @@ export function PlayScreen({ end }) {
     <>
       <div className=" grid justify-center p-24">
         <div>
-        <p className="text-3xl text-center p-4 text-indigo-500">Tries {tryCount}</p>
+        <p className="text-2xl text-center p-4 text-indigo-500">Tries <span className="bg-indigo-500  p-1 rounded text-indigo-200">{tryCount}</span></p>
         </div>
         
         <div className="h-[500px] w-[460px]">
