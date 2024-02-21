@@ -32,10 +32,10 @@ You can choose “Open in Editor” in various places in MightyMeld to open file
 	<img src="docs/play.png" width="400" height="465" />
 </kbd>
 <kbd>
-	<img src="docs/play1.png" width="400" height="465" />
-</kbd>
-<kbd>
 	<img src="docs/play2.png" width="400" height="465" />
 </kbd>
+<kbd>
+	<img src="docs/play3.png" width="400" height="465" />
+</kbd>
 
-![Animation](docs/solution.gif)
+
